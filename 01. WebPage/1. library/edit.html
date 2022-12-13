@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>로그인 페이지</title>
+<style>
+#fsize {
+	font-size:150%;
+}
+#box {
+  width:200px;
+  height:30px;
+  font-size:20px;
+}
+.middle {
+
+	  height : 30px;
+
+	  text-align : center;
+
+	  line-height : 30px;
+
+	}
+
+
+</style>
+	<!-- 정렬방법 url: https://hianna.tistory.com/674 -->
+</head>
+<body>
+<center>
+
+<div class="middle">
+
+<a href="book.jsp"><img src="images/logo.png" width="250" style="float:left;"></a>
+
+<div class="middle">
+<div style="margin-right:250px;">
+<h2>동빈도서관 비밀번호 변경</h2>
+<!-- 글자 여백 설정 url: https://clado.tistory.com/76 -->
+<p style="color:blue"> 비밀번호 변경 페이지 입니다. 본인 확인을 위해 아이디와 비밀번호를 다시 입력해주세요. </p>
+
+</div>
+
+<hr>
+<form method="post" action="edit.jsp">
+	<p id="fsize">아이디</p>
+	<input type="text" name="id"id="box">
+	<p id="fsize">비밀번호</p>
+	<input type="password" name="pw"id="box"></p>
+	<p id="fsize">변경할 비밀번호</p>
+	<input type="password" name="pw_ch"id="box"></p>
+	
+	<input type="submit" value="비밀번호 변경" style="height:50px; width:100px;background-color:red;">
+	<button type="button" onclick="location.href='mypage.html'"style="height:50px; width:100px;background-color:skyblue;" >돌아가기</button >
+</form> 
+
+
+</div>
+</center>
+</body>
+<!-- 로그인 폼 pg.149 참고-->
+</body>
+</html>
+

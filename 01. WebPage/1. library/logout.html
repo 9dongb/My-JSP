@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>로그인 페이지</title>
+<style>
+#fsize {
+	font-size:150%;
+}
+#box {
+  width:200px;
+  height:30px;
+  font-size:20px;
+}
+.middle {
+
+	  height : 30px;
+
+	  text-align : center;
+
+	  line-height : 30px;
+
+	}
+
+
+</style>
+	<!-- 정렬방법 url: https://hianna.tistory.com/674 -->
+</head>
+<body>
+
+<center>
+
+<a href="login.html"><img src="images/logo.png" width="250" style="float:left;"></a>
+
+
+<div style="margin-right:250px;">
+<h2>동빈도서관 로그인</h2>
+<!-- 글자 여백 설정 url: https://clado.tistory.com/76 -->
+<p style="color:blue"> 동빈도서관에서 로그아웃되었	습니다. 안녕히가세요. </p>
+</div>
+<hr>
+
+<form method="post" action="login.jsp">
+	<p id="fsize">아이디</p>
+	<input type="text" name="id"id="box">
+	<p id="fsize">비밀번호</p>
+	<input type="password" name="pw"id="box"></p>
+	<input type="submit" value="로그인" style="height:50px; width:100px;background-color:skyblue;">
+	<button type="button" onclick="location.href='join.html'"style="height:50px; width:100px;background-color:skyblue;" >회원가입</button >
+</div>
+</center>
+<!-- 로그인 폼 pg.149 참고-->
+</form>
+</body>
+</html>
+

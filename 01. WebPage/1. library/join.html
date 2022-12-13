@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>동빈도서관 회원가입</title>
+<style>
+#fsize {
+	font-size:150%;
+}
+#box {
+  width:200px;
+  height:30px;
+  font-size:20px;
+}
+.middle {
+
+	  height : 30px;
+
+	  text-align : center;
+
+	  line-height : 30px;
+
+	}
+
+
+</style>
+	<!-- 정렬방법 url: https://hianna.tistory.com/674 -->
+</head>
+<body>
+<center>
+<div class="middle">
+<a href="login.html"><img src="images/logo.png" width="250" style="float:left;"></a>
+
+
+<div style="margin-right:250px">
+<h2>동빈도서관 회원가입</h2>
+<!-- 글자 여백 설정 url: https://clado.tistory.com/76 -->
+<p style="color:blue"> 동빈도서관에 간편가입 후 이용해 주세요. </p>
+</div>
+<hr>
+
+<form method="post" action="join.jsp">
+	<p id="fsize" >성명</p>
+	<input type="text" name="name" id="box" style="text-align:center" >
+	<p id="fsize">학번</p>
+	<input type="text" name="studentNum" id="box" style="text-align:center">
+	<p id="fsize">아이디</p>
+	<input type="text" name="id"id="box" style="text-align:center">
+	<p id="fsize">비밀번호</p>
+	<input type="password" name="pw"id="box" style="text-align:center"></p>
+	<p id="fsize">비밀번호 확인</p>
+	<input type="password" name="pw_ok"id="box" style="text-align:center"></p>
+	<input type="submit" value="회원가입" style="height:50px; width:100px;background-color:skyblue;">
+	<button type="button" onclick="location.href='login.html'"style="height:50px; width:100px;background-color:skyblue;" >돌아가기</button >
+	
+	
+</form>
+</div>
+</center>
+</body>
+</html>
